@@ -1,13 +1,81 @@
+*** WARNING: UNDER NO CONDITIONS, IS A SINGLE DOT OR LETTER TO COME FROM ANYTHING THAT HAS TOUCHED A.I. ***
+*** THERE ARE SIGNIFICANT LEGAL CONSEQUENCES FOR THIS TEAM, AND THERE IS NO FORGIVENESS AVAILABLE ***
+*** A SINGLE ERROR WHEN WE ARE CONNECTED TO THE MAINFRAME = INSTANT, PERMANENT LOCKOUT FOREVER ***
+
 '''
 Initial Blurb:
 
-Morning dip and rips. such as tesla sometimes. dumps to 9:50 plus minus 5 minutes, heavier on the plus side. often has some resistance candles with long wicks down,
-combined with strength and order flow, (or some normalized coeficient mixture) will often retrace some, and along the way the 3day to 10day(no longer) call options
-gain several percet on the way back up, before theta and IV loss start to eat away at it beyond noon.
+Morning dip and rips. such as tesla sometimes. dumps to 9:50 plus minus 5 minutes, heavier on the plus side. often has some
+resistance candles with long wicks down, combined with strength and order flow, (or some normalized coeficient mixture)
+will often retrace some, and along the way the 3day to 10day(no longer) call options gain several percet on the way back up,
+before theta and IV loss start to eat away at it beyond noon.
 
-For this one we will need global contraints, defaults, #notes showing suggested ranges of 5 or 6 values, for later brute forcing with AI help (but not now!), and refactor everything, 
-bringing it to the top, and/or a global util .py for all the variables that ML will use to learn and optimize, or for which a downvectored recursive NN can learn (but not now!).
+For this one we will need global contraints, defaults, #notes showing suggested ranges of 5 or 6 values, for later brute 
+forcing with AI help (but not now!), and refactor everything, bringing it to the top, and/or a global util .py for all
+the variables that ML will use to learn and optimize, or for which a downvectored recursive NN can learn (but not now!).
 '''
 
 '''
+For a variety of reasons, there are stocks that move in a fashion such that:
+
+Premise 1: There exists typical behaviors of stocks, that in part, are attributable to how investment swims among support and resistance,
+/technical patterns, retracement behaviors, mean reversion, and other single-stock-focused analysis.
+
+Premise 2: Separately, there is a manifold of effects, displayed in price action, for stocks like tesla, wherein causes can be postulated.
+Utilization f Premise 2: (to be determined)
+
+Premise 3: There exists causes, some of which can be explored, by themselves, or together, that can assist in attaining higher
+  /predictive robustness, then only looking at the specifics of premise one alone.
+Utilization of Premise 3: (to be determined)
+
+Premise 4: There are stocks who sympathetically move in response to movements to tesla:
+  4a:  Stocks who are in the same sector, and
+    4a1:  move sympathetically in roughly the same time region (perhaps 0 to 1 hour)
+    4a2:  move sympathetically in a lagged time frame (1 hour to [1day+2hrs]) 
+  4b: Stocks who are not in the same sector, and still
+    4b1: move sympathetically...
+    4b2: ...
+Utilizaiton of Premise 4: (to be determined)
+
+Premise 5: There is to be observed such, that Tesla price movement, slightly before and after the morning bell, that tesla drops
+/in price, due to:
+  5a. large funds and hedges are selling to capture their alpha to that point
+  5b. retail and investment house stop losses are triggered, which drives price forther down
+  5c. symmetric selling behavior continues as the order flow in support of buying, thins out or is withdrawn
+  5d. other reasons (insert more here if discovered)
+Utilization of Premise 5: (to be determined)
+
+Premise 6: There is to be observed such, more often than other (mid-cap) or (large-cap) or (mid- and large-cap) stocks,
+/in a time period around 0945 to 1030, that tesla sometimes experiences significant retracement.
+Utilization of Premise 6: (to be determined)
+
+Premise 7: Therein exists a situation, of higher propability of success versus random entry in first two morning hours, such that
+/alpha is available, due to price movement or call price increase.
+Utility of Premise 7: (PROFIT POTENTIAL, see '...' below)
+
+Premise 8: There often exists, near the relative bottom of price movement, a selection of candles that indicate support, resistance to
+/orders being filled any further lower, which is seen as lower wicks in several candles near one another.
+  8a.  Sometimes, a range of one minute candles, between 3 to 8 minutes in time, encompass the necessary information to
+  /indicate that retracement is going to occur.
+  8b.  Sometimes, the total size of the candle has grown smaller in that region, as if the sell stops and other depleting causes
+  /have reached their final exhaustion, and buyers are returning, and fill orders are being placed.
+Utilization of Premise 8: (to be determined)
+
+Premise 9: ...
+Utilization of Premise 9: ...
+
+'''
+
+# === ENTRY POINT FOR POTENTIAL PARTNER BEGINS BELOW HERE ===
+#
+# Whether you continue in this fashion, or you request a Gist flow, we proceed stepwise, back and forth, to navigate ideas
+# necessary for a mental model of the scenario, sufficient to encapsulate all necessary considerations of what would need
+# to be considered, for a model to be worthy of drafting.  As the bin allotment may eventually approach $250.000, herein lies
+# the critical parameterization and interdependent model explanation sufficient to justify risk-on approaches regardless of
+# market conditions.
+#
+# === YOU MAY BEGIN: ===
+
+Entry Date: mm.dd.yy / hh.mm
+Freelancer Name: @...
 
