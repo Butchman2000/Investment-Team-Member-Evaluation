@@ -6,3 +6,33 @@ and negative reinforcement training on many examples of failed parabolics or mov
 but failed, will enable prediction of morning retracements.
 
 [REFER TO ...SKEWED PARABOLIC...png]
+
+
+Also, from 
+https://math.stackexchange.com/questions/1818017/is-there-any-equation-for-this-type-of-skewed-parabola
+
+The solution they give was to use a Linex function, which looks like that:
+
+f(x)=exp(ax)−ax−1
+
+Which, when plotted, looks like that:
+
+enter image description here
+
+Note that I scaled the functions to compare their "skewness". Python code to reproduce the plot:
+
+import numpy as np
+from matplotlib import pyplot as plt
+
+x = np.linspace(-2,2)
+y = lambda a : np.exp(a * x) - a * x - 1
+y_scaled = lambda a : (y(a) - np.min(y(a))) / (np.max(y(a)) - np.min(y(a)))
+
+plt.plot(x, -y_scaled(1.25), x, -y_scaled(0.75), x, -y_scaled(0.25))
+plt.legend(['a = 1.25', 'a = 0.75', 'a = 0.25'])
+plt.show()
+This, of course, doesn't at all look like a parabola (well, it is an exponential function), but did the trick for me when I tackled a similar problem:
+
+enter image description here
+
+[REFER TO FITTINGS.png]
