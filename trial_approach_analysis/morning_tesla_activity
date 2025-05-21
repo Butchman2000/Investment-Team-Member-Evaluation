@@ -1,0 +1,13 @@
+'''
+Initial Blurb:
+
+Morning dip and rips. such as tesla sometimes. dumps to 9:50 plus minus 5 minutes, heavier on the plus side. often has some resistance candles with long wicks down,
+combined with strength and order flow, (or some normalized coeficient mixture) will often retrace some, and along the way the 3day to 10day(no longer) call options
+gain several percet on the way back up, before theta and IV loss start to eat away at it beyond noon.
+
+For this one we will need global contraints, defaults, #notes showing suggested ranges of 5 or 6 values, for later brute forcing with AI help (but not now!), and refactor everything, 
+bringing it to the top, and/or a global util .py for all the variables that ML will use to learn and optimize, or for which a downvectored recursive NN can learn (but not now!).
+'''
+
+'''
+
