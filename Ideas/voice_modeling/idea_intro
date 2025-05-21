@@ -1,0 +1,14 @@
+A youtube creator named carykh, over the last 10 years or so, has provided examples of the use of aye eye, NN, ML, in unique ways
+one of which was to learn to interpret his lip movements and turn it into speech.
+At the end of its training, and it was only given video portions without audio, his work was able to turn his lip movements into
+speech in something like 60 to 80% accuracy--already a difficult task, yet he did well with it.
+
+If one was to divide video into four quadrants, either over top of one another, or in squares, or A atop B atop C atop D,
+  and fed through a version of his publically provided system, (something) could learn to not read lips, but to read patterns.
+When provided with data on a real market day, I believe a better chance of more accurate capability of not just prediction, but
+  more intuitive choices of buying the equity, or buying calls or call spreads (see note A) or covered calls or cash covered puts
+  or calendar spreads or other related options, will become available.
+  The data fed to the (whatever machine) will include historically as much correlated data as possible.
+  The A,B,C,D, and/or more elements will include equity price, vix, atm iv, indices, and/or 
+
+  [REFER TO MODIFIED_LIP_READ_DATA_FEED.PNG]
