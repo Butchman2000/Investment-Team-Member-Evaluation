@@ -1,3 +1,8 @@
+### This portion is a more technical breakdown of time slices and how they are to be treated
+and what connection they have to the bigger picture in terms of analysis of opportunity.
+Most other conversations do not need this level of technical proficiency.
+It is moreso a chance to 
+
 #If the time periods of the morning activities, are divided into 5 minute segments,
 then between 0930 and 1015, there is 9 (5-minute) segments
 this demands that we consider activity in 5,10,15 minute blocks of blocks,
@@ -23,3 +28,13 @@ fear           drift down             drifting up
 neutral        neutral                neutral
 greed          drift up               drifting down
 very greed     strong up              dropping
+
+Eventually, the slope_modifier = sqrt( F*(fear/greed)^2 + I*(index_behavior)^2 + V*(1/(delta_VIX))^2)
+or something similar.
+If that does not fit well, then iterative exploration of partial differentials is in order, though it has been a long time
+since I worked with calc and matrices and differential equations.
+
+# === Room for collaboration stuffs below ===
+
+Date: mm.dd.yy / hh.mm
+Name: ...
