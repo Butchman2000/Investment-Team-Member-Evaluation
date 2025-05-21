@@ -1,0 +1,25 @@
+#If the time periods of the morning activities, are divided into 5 minute segments,
+then between 0930 and 1015, there is 9 (5-minute) segments
+this demands that we consider activity in 5,10,15 minute blocks of blocks,
+have modeling ideas that operate in blocks, in blocks of blocks (my team will leave that for ML)
+and brute force ranges of variables to check best fitment, unless the combinatorics are so large that other attempts will be made
+
+anyway, if we designate [-3,-2,-1,0,1,2,3] as the first derivative range of values 
+which is correlated against 'slope' and we normalize slope in the beginning of the morning, from open until bottom or something,
+then we can hve 
+
+1  2  3  4  5  6  7  8  9  
+A  B  C  D  E  F  G  H  I
+
+wherein each of A-I can be -3 to 3, as intervals
+
+(difficulty in assumption here, though, as standardized 'slope' default value is dictated via ML from before somehow)
+(each day may be slightly different, and market conditions would dictate how we assume 'slope' to be, or would require)
+(a 'slope_modifier' value, dependent on things like fear/greed index, index movement, and inverse VIX movement relationship)
+
+FEAR/GREED    INDEX (SPY) movement    VIX movement
+very fear      trend down             climbing
+fear           drift down             drifting up
+neutral        neutral                neutral
+greed          drift up               drifting down
+very greed     strong up              dropping
