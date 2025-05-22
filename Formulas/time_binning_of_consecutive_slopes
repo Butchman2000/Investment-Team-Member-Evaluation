@@ -1,0 +1,29 @@
+How to analyze the patterns of the day after market open.
+In boxes of 3, 4, and 5 minute windows, no matter how many candles appear in them (they could all be missing, although I have
+specific consequences later, that I explain in detail), from 0930 to 1030, there are to be specific analyses done on these windows.
+
+At minimum, (if at least two points are available), we perform a linear regression to get slope, intercept, and r_squared.
+
+For several points, we determine of the first or the last are of significant deviation, via analysis of the length of the periperpendicular
+length of stock price at that minute, from the line of the linear regression.
+this is calculated by height*sin^-1(angle_from_dropdown)... = tan ( 1/ slope)  [yes, i double checked]
+
+
+
+For consecutive sets of 3 minutes, find slope, then assign to one of 7 gradient values
+upwards (strongly, moderately, minimally), neutral, downwards (minimally, moderately, strongly)
+4e, 3e, 2e, 1e,   0,   -1e, -2e, -3e, -4e
+where e (epsilon) is a latter fitting artefact
+if slope extreme either way, such as 1.5x above the (4) or (-4), then assign it a 'pump' or 'dump' value
+3 # pumps are suspicious, especially consecutively
+dumps are concerning if several in a row beyond 9:50 or 9:55
+
+Note: will need to normalize slope values, first, with demanded defaults,
+# that is, take a look at 20 days of them, and figure out slope ranges,
+# then roughly assign slope value ranges (that is, what is the range of slopes for bin -3, as an example, perhaps -0.5 to -1.2, or something)
+
+Later: full backtested binning
+
+For sure, if, at minimum, 2 of the first 3 three-minute blocks, has negative slope,
+then we are definitely watching for a retrace.
+Note: later reward-weighted for best arrangements of slopes, wherein retracements occurred
