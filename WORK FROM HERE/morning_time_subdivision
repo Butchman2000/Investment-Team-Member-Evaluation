@@ -13,6 +13,16 @@ anyway, if we designate [-3,-2,-1,0,1,2,3] as the first derivative range of valu
 which is correlated against 'slope' and we normalize slope in the beginning of the morning, from open until bottom or something,
 then we can hve 
 
+First, slope is determined as the gathering of, for each minute in a five minute window, the average value of the candles.
+for candle(i,time(x)) or something
+average (open - close) / 2
+
+linear regression of those five points (Xi,Yi), but with weighting of (0.75, 1, 1, 1, 0.75); sum is 4.5
+normalization is ...
+normalized value ...
+(... will return to this idea in a bit)
+
+
 1  2  3  4  5  6  7  8  9  
 A  B  C  D  E  F  G  H  I
 
