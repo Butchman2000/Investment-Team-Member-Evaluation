@@ -1,0 +1,31 @@
+"check the weather"
+***Me
+In the last two months, we have seen the highest volatility in 130 years, we lost 25% of market value, and the dollar is dropping. 
+if a trading system cannot 'look out the window to check the weather (precipitation, wind, danger, storms, falling trees), then it will most certainly fail
+
+***FL
+I think what you want is a multi-dimensional, adaptive trading model—one that factors in not just signals and technical setups,
+but macro context, volatility surfaces, and regime shifts—which is critical in today's markets.
+
+"If two candles with long wicks point down, then buy."
+That’s just surface-level. It ignores the deeper forces that actually move the market:...
+
+Options pricing, Volatility conditions, Macro events
+, Liquidity dynamics
+
+Just like you'd check for a storm before flying a plane, we checks the "market weather" before making a trade.
+- Is volatility high?
+- Are options overpriced?
+- Is there economic news today?
+This tells us if it’s safe to trade — or too risky.
+
+  ***Me
+  conceptually, abstractly first. coding is the easy part. we are trying to tackle nailing down those elements you mentioned, 
+and the behavior of the underlying equity (stock), and the interplay of the weather with the stock. risk on/risk off is more of
+a select gradient of choices (five in that range). but again, the function creation, and coding can be done by so many others. 
+  solidfying the idea approach is the main priority. 
+  otherwise this becomes a monster jumble of stuffs that lose more and more clarity over time, as to what they are doing with each other.
+
+  ***FL
+
+  
