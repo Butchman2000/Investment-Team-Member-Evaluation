@@ -1,4 +1,13 @@
-Market Condition Effect Fitting
+# Market Condition Effect Fitting
+# Program: fear_greed_index_effect.py
+# Author: Brian Anderson
+# Origin Date: May2025
+# Version: 1.0
+#
+# Purpose:
+#    /To assemble conceptual navigation of market effects of the fear and greed index,
+#    /upon equities and the market dynamics, and to delineate the pathways for optimization based on
+#    /computing power available, with the higher level used to explore heavier workload and higher accuracy.
 
 
 # === Carried over from another repository, just for discussion ===
