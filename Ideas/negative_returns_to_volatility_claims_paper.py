@@ -5,7 +5,7 @@ Volume 125, Issue 1, July 2017, Pages 72-98
 Journal of Financial Economics
 Explaining the negative returns to volatility claims: An equilibrium approach☆
 Author links open overlay panel
-Bjørn Eraker a, Yue Wu b
+Bjørn Eraker, Yue Wu
 
 https://doi.org/10.1016/j.jfineco.2017.04.007
 
